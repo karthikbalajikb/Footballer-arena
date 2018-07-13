@@ -1,0 +1,11 @@
+.profileContainer{
+    display: grid;
+    margin-top: 60px;
+}
+
+.profileContainer__Content{
+    display: grid;
+    grid-template-columns: 30% 65%;
+    grid-gap: 5%;
+    padding: 2%;
+}

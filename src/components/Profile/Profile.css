@@ -1,0 +1,44 @@
+.ProfileHeader{
+    display: grid;
+    height: 170px;
+    background: linear-gradient(to right, #bb78a0 ,#57385d);
+}
+
+.ProfileHeader__title{
+    font-size: 6vw;
+    word-break: break-all;
+    margin: auto;
+    color: antiquewhite;
+}
+
+.ProfileInfo__img{
+    border: 7px solid white;
+    border-radius: 10%;
+}
+
+.ProfileInfo__details{
+    color: grey;
+}
+
+.profileContent{
+    display: grid;
+    grid-gap: 4%;   
+    color: grey;
+}
+
+.profileContent__physical, .profileContent__club, .profileContent__skills{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    border: 3px solid white;
+    padding: 2%;
+    background-color: #f9f7f7;
+    font-size: 15px;
+}
+
+header, label{
+    font-weight: bold;
+}
+
+header{
+    color: #905c83;
+}

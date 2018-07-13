@@ -1,0 +1,70 @@
+.playerList{
+    padding: 7% 5% 5% 5%;
+    background-color: whitesmoke;
+}
+.playerList__holder{
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    grid-gap: 45px 4%;
+    justify-content: space-around;
+}
+
+.player{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-gap: 2%;
+    box-shadow: 2px 2px 2px 1px lightgrey;
+    height: 100%;
+    background-color: white;
+}
+
+.player__description{
+    display: grid;
+    padding: 2%;
+}
+
+.player__image{
+    background: linear-gradient(#966a29, #44312a);
+    width: 100%;
+    height: 100px;
+}
+
+.player__name{
+    font-size: 15px;
+    color: #615e5e;
+    font-weight: bold;
+}
+
+.player__national, .player__club, .player__position {
+    font-size: 15px;
+    color: #615e5e;
+}
+
+.player__viewPlayerDetailBtn{
+    border: none;
+    cursor: pointer;
+    background-color: #7c5076;
+}
+
+.player__viewPlayerDetailLink{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px){
+    .playerList__holder{
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .playerList__holder{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .playerList__holder{
+        grid-template-columns: auto;
+    }
+}

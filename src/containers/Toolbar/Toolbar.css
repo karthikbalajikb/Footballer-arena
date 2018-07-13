@@ -1,0 +1,8 @@
+.siteHeader{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background: linear-gradient(to right, #57385d, #bb78a0);
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
